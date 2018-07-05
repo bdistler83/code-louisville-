@@ -1,0 +1,117 @@
+/* main headz salon title in nav bar */
+
+header {
+   width: 100%;
+   background: black;
+   min-height: 80px;
+   padding: 5px;
+   position: fixed;
+   left: 0;
+   top: 0;
+   text-align: center;
+}
+
+h2,
+p {
+    color: whitesmoke;
+}
+
+/* test hamburger menu */
+
+.topmenu {
+   background: black;
+   overflow: hidden;   
+}
+
+.topmenu a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topmenu a:hover {
+    color: grey;
+}
+/* Turns the box background home green 
+.topmenu a.active {
+    background-color: #4CAf50;
+    color: white;
+}
+/*
+.topmenu .icon {
+    display: none;
+}
+
+/* test hamburger menu */
+/* main body section */
+
+.contact {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 40px; 
+    padding-left: 10px;
+    border-width: 100%;
+    list-style-type: none;
+    text-align: center;;
+    margin-top: 130px;
+    font-size: 20px;
+}
+
+.blog {
+    border-top: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 40px; 
+    padding-left: 10px;
+    border-width: 100%;
+    list-style-type: none;
+    text-align: center;  
+    margin-top: 5px;  
+    font-size: 20px;
+}
+
+.featured {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 40px; 
+    padding-left: 10px;
+    border-width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 65px;
+    font-size: 20px;
+}
+
+.background {
+    background-color: lightgray;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+}
+
+/* img section */
+
+img {
+    border-radius: 60%;
+}
+
+/* media query */
+
+.wrap {
+    min-height: calc(100vh - 89px);
+}
+
+.main-nav {
+    display: inline-block;
+  }
