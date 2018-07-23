@@ -66,7 +66,7 @@ textarea {
     padding:10px;
     margin-bottom:25px;
     margin-top:10px;
-    height:100px;
+    height:45px;
     resize:none;
 
 }   
@@ -87,6 +87,7 @@ label {
 
 mlabel {
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
 hr {
