@@ -1,0 +1,95 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.background {
+    background-color: lightgray;
+}
+
+
+/* --- column sections --- */
+
+img {
+    border-radius: 60%;
+}
+
+.about,
+.services,
+.month,
+.contact {
+    text-align: center;
+}
+
+.contact,
+.services {
+    list-style-type: none;
+}
+
+/* --- JS Email form CSS --- */ 
+
+div#eform {
+    margin-top: 45px;
+    text-align: center;
+    border-radius: 2%;
+    margin-bottom: 75px;
+    border: 1px solid black;
+    width: 100%;
+    box-shadow: 1px 1px 1px;
+    padding-bottom: 100px;
+    padding-top: 75px;
+    background-color: rgba(73, 72, 72, 0);
+}
+
+input[type="submit"]{
+    width: 60%;
+    padding: 10px 40px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5%;
+
+}
+
+textarea {
+    width: 50%;
+    border:1px solid black;
+    padding:10px;
+    margin-bottom:25px;
+    margin-top:10px;
+    height:100px;
+    resize:none;
+
+}   
+
+input[type="text"] {
+width: 50%;
+margin-top:10px;
+margin-left: 5px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:1px solid black;
+}
+
+label {
+    font-size:16px;
+    }
+
+mlabel {
+    font-size: 16px;
+}
+
+hr {
+    margin-top: 60px;
+    background-color: black;
+}
